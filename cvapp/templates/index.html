@@ -1,0 +1,342 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/fav.png' %}"/> 
+    <link rel="preconnect" href="{% static 'https://fonts.gstatic.com'%}" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="{% static 'https://fonts.googleapis.com/css2'%}"/>
+    <link rel="stylesheet" href="{% static 'https://fonts.googleapis.com/css2'%}" media="print" onload="this.media='all'"/>
+    <link rel="stylesheet" href="{% static 'https://fonts.googleapis.com/css2'%}"/>
+    <link href="{% static 'css/font-awesome/css/all.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet">
+    <link href="{% static 'css/aos.css'%}" rel="stylesheet">
+    <link href="{% static 'css/main.css'%}" rel="stylesheet">
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+        
+      </style>
+      <link rel="stylesheet" href="{% static 'css/navmain.css' %}">
+  </head>
+  <body id="top">
+    <header class="d-print-none">
+      <div class="container text-center text-lg-left">
+        <div class="py-3 clearfix">
+          <h1 class="site-title mb-0">Okechukwu David</h1>
+          <div class="site-nav">
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="https://www.github.com/Chucks-Dave" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/okechukwu-david-6a8a82256" title="Linkdin"><i class="fab fa-linkedin-in"></i><span class="menu-title sr-only">Linkdin</span></a>
+              </li>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/ok_e_chukwu" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">YouTube</span></a>
+            </li>
+              <li class="nav-item"><a class="nav-link" href="https://twitter.com/@chucks_dave" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/okechukwudavid" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+              </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content">
+      <div class="container">
+<div class="cover shadow-lg bg-white">
+  <div class="cover-bg p-3 p-lg-4 text-white">
+    <div class="row">
+      <div class="col-lg-4 col-md-5">
+        <div class="avatar hover-effect bg-white shadow-sm p-1"><img src="{% static 'images/david.jpg'%}" width="200" height="200"/></div>
+      </div>
+      <div class="col-lg-8 col-md-7 text-center text-md-start">
+        <h2 class="h1 mt-2" data-aos="fade-left" data-aos-delay="0">Okechukwu David</h2>
+        <p data-aos="fade-left" data-aos-delay="100">Full stack Web Developer</p>
+        <div class="d-print-none" data-aos="fade-left" data-aos-delay="200">
+          <a class="btn btn-success shadow-sm mt-1 me-1" href="#contact">Hire Me</a>
+          <a class="btn btn-light text-dark shadow-sm mt-1 me-1" href="https://www.canva.com/design/DAFVhdKafNc/R0S3ZZcq3KqRrE8B92Gs5Q/edit?utm_content=DAFVhdKafNc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Download My CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about-section pt-4 px-3 px-lg-4 mt-1">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="h3 mb-3">About Me</h2>
+        <p>Hello,i'm Okechukwu David and i'm a software developer.A dedicated, professional, and highly motivated engineer who is eager to participate in different projects.</p>
+      </div>
+      <div class="col-md-5 offset-md-1">
+        <div class="row mt-2">
+
+          <div class="col-sm-4">
+            <div class="pb-1">Email</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">okechukwudavid305@gmail.com</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Phone</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">+2349099771152</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Address</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">Remote, Freelancer</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="skills-section px-3 px-lg-4">
+    <h2 class="h3 mb-3">Professional Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-2"><span>Django</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>HTML5/CSS</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>Bootstrap</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>Postgres</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-2"><span>Python</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>Redis/Git</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>Django rest-framework</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="mb-2"><span>JavaScript</span>
+          <div class="progress my-1">
+            <div class="progress-bar bg-success" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="work-experience-section px-3 px-lg-4">
+    <h2 class="h3 mb-4">My Projects</h2>
+    <div class="timeline">
+      <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Instagram Clone <a href="https://jeon1.pythonanywhere.com/">Click Me</a> <span class="text-muted h6"></span></div>
+
+          <div class="text-muted text-small mb-2"></div>
+          <div>The app clones the works of our regular instagram app. </div>
+        </div>
+      </div>
+      <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Netflix Clone <a href="https://jeon5.pythonanywhere.com/">Click Me</a><span class="text-muted h6"> </span></div>
+          <div class="text-muted text-small mb-2"></div>
+          <div>The app performs the regular functions of the netflix app pls note,i did not upload all images to display movies but all other functions work perfectly.</div>
+        </div>
+      </div>
+      <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Todo App <a href="https://jeon2.pythonanywhere.com/">Click Me</a><span class="text-muted h6"> </span></div>
+          <div class="text-muted text-small mb-2"></div>
+          <div>This is an app with a login user authentication and performs the function of a Todoapp.
+            </div>
+        </div>
+      </div>
+      <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1"> Blog <a href="https://jeon3.pythonanywhere.com/ ">Click Me</a> <span class="text-muted h6"></span></div>
+          <div class="text-muted text-small mb-2"></div>
+          <div>This is a simple blog with user authentication and the ability for users to update their post and delete .</div>
+           <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1"> School Management System <a href="http://jeon4.pythonanywhere.com/ ">Click Me</a> <span class="text-muted h6"></span></div>
+          <div class="text-muted text-small mb-2"></div>
+          <div> An app for to automate the workings of a school with admin access.
+        </div>
+        </div>
+        <div class="timeline-card timeline-card-primary card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1"> Bookmark <a href="http://jeon7.pythonanywhere.com/">Click Me</a> <span class="text-muted h6"></span></div>
+          <div class="text-muted text-small mb-2"></div>
+          <div>A social site.</div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="page-break"></div>
+  <div class="education-section px-3 px-lg-4 pb-4">
+    <h2 class="h3 mb-4">Other Projects</h2>
+    <div class="timeline">
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body"><div class="h5 mb-1">Educational Site <a href="https://jeon8.pythonanywhere.com/">Click Me</a> <span class="text-muted h6"></span></div>
+          <div class="text-muted text-small mb-2"></div>
+          <div>An educational site where learners can login register and chat with one another.</div>
+
+        <div class="h5 mb-1">Advanced Blog <a href="https://jeon6.pythonanywhere.com/">Click Me</a> <span class="text-muted h6"></span></div>
+          <div class="text-muted text-small mb-2"></div>
+          <div>A blog with advanced features as compared to the first one where users can comment, and share post.
+      </div>
+          </div>
+    </div>
+  </div><h2 class="h3 mb-4">Education</h2>
+    <div class="timeline">
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Bachelor Degree in Statistics/Computer edu <span class="text-muted h6">from Federal university of Agriculture Makurdi</span></div>
+          <div class="text-muted text-small mb-2">April 2017 - Nov 2021</div>
+          <div>Leverage in computer Science and programing knowledge with better understanding in disciplined and formal way.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <hr class="d-print-none"/>
+      <div class="page-break"></div>
+      <div class="education-section px-3 px-lg-4 pb-4">
+      <h2 class="h3 mb-4">Work & Experience</h2>
+      <div class="timeline">
+        <div class="timeline-card timeline-card-success card shadow-sm">
+          <div class="card-body">
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Uzi Ben Nig Ltd(Industrial Trainee)<span class="text-muted h6"> Uzi Ben</span></div>
+          <div class="text-muted text-small mb-2">2020-2021</div>
+          <div>Installation & maintenance of Aio Systems.</div>
+        </div>
+      </div>
+      <div class="timeline-card timeline-card-success card shadow-sm">
+        <div class="card-body">
+          <div class="h5 mb-1">Upwork <span class="text-muted h6">Freelance</span></div>
+          <div class="text-muted text-small mb-2">2020</div>
+          <div>Freelance </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
+  <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
+    <h2 class="h3 text mb-3">Contact Me</h2>
+    <div class="row">
+      <div class="col-md-7 d-print-none">
+        <div class="my-2">
+  <form method="POST" action="{% url 'index' %}">
+  {% csrf_token %}
+    <div class="row">
+    <div class="col-6">
+      <input class="form-control" type="text" id="name" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="col-6">
+      <input class="form-control" type="email" id="email" name="email" placeholder="Your E-mail" required>
+    </div>
+  </div>
+  <div class="form-group my-2">
+    <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4"  placeholder="Your Message" required></textarea>
+  </div>
+  <button class="btn btn-primary mt-2" type="submit">Send</button>
+</form>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mt-2">
+          <h3 class="h6">Address</h3>
+          <div class="pb-2 text-secondary">Remote, Freelancer</div>
+          <h3 class="h6">Phone</h3>
+          <div class="pb-2 text-secondary">+234 9099771152</div>
+          <h3 class="h6">Email</h3>
+          <div class="pb-2 text-secondary">okechukwudavid305@gmail.com</div>
+        </div>
+      </div>
+      <div class="col d-none d-print-block">
+        <div class="mt-2">
+          <div>
+            <div class="mb-2">
+              <div class="text-dark"><i class="fab fa-twitter mr-1"></i><span>https://twitter.com/@chucks_dave</span>
+              </div>
+            </div>
+            <div class="mb-2">
+              <div class="text-dark"><i class="fab fa-facebook mr-1"></i><span>https://www.facebook.com/okechukwudavid</span>
+              </div>
+            </div>
+            <div class="mb-2">
+              <div class="text-dark"><i class="fab fa-instagram mr-1"></i><span>https://www.instagram.com/ok_e_chukwu</span>
+              </div>
+            </div>
+            <div class="mb-2">
+              <div class="text-dark"><i class="fab fa-github mr-1"></i><span>https://github.com/Chucks-Dave</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+      <div class="container">
+        <div class="my-3">
+          <div class="h4">Okechukwu David</div>
+          <div class="footer-nav">
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://github.com/Chucks-Dave" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://Linkedin.com/in/okechukwu-davi-6a8a82256" title="Linkdin"><i class="fab fa-linkedin-in"></i><span class="menu-title sr-only">Linkdin</span></a>
+              </li>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="https://www.Instagram.com/ok_e_chukwu" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">YouTube</span></a>
+            </li>
+              <li class="nav-item"><a class="nav-link" href="https://twitter.com/@chucks_dave" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/okechukwudavid"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+              </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="text-small">
+          <div class="mb-1">&copy;2022 Right Resume. All rights reserved.</div>
+          <div>Designed By - <a href="">Okechukwu David</a></div>
+        </div>
+      </div>
+
+    </footer>
+    <script src="{% static 'scripts/bootstrap.bundle.min.js'%}"></script>
+    <script src="{% static 'scripts/aos.js'%}"></script>
+    <script src="{% static 'scripts/main.js'%}"></script>
+
+  </body>
+</html>
